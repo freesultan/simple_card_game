@@ -1,6 +1,6 @@
-import { createApp } from 'vue'
-import App from './App.vue'
- 
-import '../dist/output.css'
+import { createApp } from "vue";
+import App from "./App.vue";
 
-createApp(App).mount('#app')
+// import "../dist/output.css";
+
+createApp(App).mount("#app");
