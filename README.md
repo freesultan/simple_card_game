@@ -1,24 +1,7 @@
-# game
+# card game
 
-## Project setup
-```
-npm install
-```
+## To do:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Save users game history
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### create setting panel

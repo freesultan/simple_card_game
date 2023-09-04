@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ @layer base {
+    .flip-container {
+        background-color: transparent;
+        perspective: 1000px;
+        
+        
+        cursor: pointer;
+    }
+    .matched{
+        opacity: 0.4;
+         
+    }
+    .flipper{
+        
+         transform-style: preserve-3d;
+        position: relative;
+        transition: all 0.5s ease;
+    }
+    
+  
+    .front,
+    .back {
+        backface-visibility: hidden;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        
+         
+    }
+ 
+    
+    .back {
+         
+        transform: rotateY(180deg);
+         
+    }
+   
+    .flip-container.flipped .flipper {
+       
+        transform: rotateY(180deg);
+    }
+
+    .badge-success{
+        background-color: green;
+        color:white;
+        padding: 5px;
+
+    }
+    .badge-light{
+        background-color: white;
+        color:black;
+        padding: 5px;
+    }
+    .disable {
+        display: none;
+    }
+ }
